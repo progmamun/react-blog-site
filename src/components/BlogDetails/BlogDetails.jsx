@@ -14,8 +14,8 @@ const BlogDetails = () => {
     <>
       <div className="header-gradient">
         <div>
-          <button className="black-button" onClick={() => navigate(-1)}>
-            <RewindIcon></RewindIcon> <p>Back</p>
+          <button className="back-button" onClick={() => navigate(-1)}>
+            <RewindIcon className="back-button-icon"></RewindIcon> <p>Back</p>
           </button>
         </div>
         <div className="blog-details">

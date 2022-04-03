@@ -25,6 +25,9 @@
   align-items: center;
   cursor: pointer;
 }
+.back-button-icon {
+  width: 35px;
+}
 
 .back-button p {
   margin-top: 4px;
