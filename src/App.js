@@ -1,7 +1,13 @@
+import { createContext, useState } from 'react';
 import './App.css';
 
+export const BlogContext = createContext();
+
 function App() {
-  return <div className="App"></div>;
+  const [blogs, setBlogs] = useState([]);
+  return (
+    <BlogContext.Provider value={[blogs, setBlogs]}></BlogContext.Provider>
+  );
 }
 
 export default App;
