@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { BlogContext } from '../../App';
 import { RewindIcon } from '@heroicons/react/outline';
+import './BlogDetails.css';
 
 const BlogDetails = () => {
   const { id } = useParams();
